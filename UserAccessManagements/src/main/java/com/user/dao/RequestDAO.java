@@ -78,7 +78,7 @@ public class RequestDAO {
                 requestMap.put("accessType", resultSet.getString("accessType"));
                 requestMap.put("reason", resultSet.getString("reason"));
                 requestMap.put("status", resultSet.getString("status"));
-                requestMap.put("softwareName", resultSet.getString("name")); // Add software name
+                requestMap.put("softwareName", resultSet.getString("name")); 
 
                 requests.add(requestMap);
             }
