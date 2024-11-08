@@ -27,7 +27,7 @@ public class LoginServlet extends HttpServlet {
         if (user != null) {
             HttpSession session = request.getSession();
             session.setAttribute("user", user);
-            session.setMaxInactiveInterval(30 * 60); // Set session timeout to 30 minutes
+            
 
             // Redirect based on role
             if ("Employee".equals(user.getRole())) {
