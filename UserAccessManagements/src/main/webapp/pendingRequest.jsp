@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pending Requests</title>
     <style>
-        /* CSS styling for better readability */
+       
         body { font-family: Arial, sans-serif; background-color: #f4f4f9; padding: 20px; }
         h1 { text-align: center; color: #333; }
         table { width: 80%; margin: 20px auto; border-collapse: collapse; }
