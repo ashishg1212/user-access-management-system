@@ -26,7 +26,7 @@ public class SignUpServlet extends HttpServlet {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
 
-        // Hash the password before storing it
+       
        
 
         User users = new User();
