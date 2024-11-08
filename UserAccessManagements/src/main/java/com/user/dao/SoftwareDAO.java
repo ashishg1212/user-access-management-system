@@ -47,7 +47,7 @@ public class SoftwareDAO {
                 softwareList.add(software);
             }
         } catch (SQLException e) {
-            e.printStackTrace();  // Consider replacing with proper logging
+            e.printStackTrace(); 
         }
         return softwareList;
     }
@@ -69,7 +69,7 @@ public class SoftwareDAO {
                 software.setAccessLevels(rs.getString("accessLevels"));
             }
         } catch (SQLException e) {
-            e.printStackTrace();  // Consider replacing with proper logging
+            e.printStackTrace();  
         }
         
         return software;
